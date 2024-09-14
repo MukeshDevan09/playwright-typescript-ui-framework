@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+      "target": "es2017",
+      "module": "commonjs",
+      "lib": ["es2017"],
+      "strict": true,
+      "esModuleInterop": true,
+      "moduleResolution": "node",
+      "outDir": "dist",
+      "types": ["node", "jest"],
+      "resolveJsonModule": true,
+      "sourceMap": true
+    },
+    "include": ["jest.config.ts", "ui-automation-core/*.ts", "unit-testing/*.ts"],
+    "exclude": ["node_modules"]
+  }
+  
